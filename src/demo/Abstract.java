@@ -3,7 +3,10 @@ package demo;
 abstract class bank{
 	abstract void loan();
 	abstract void account();
-	
+
+	void greeting(){
+		System.out.println("good morning sir/madm .Thanks for using bank of borada");
+	}
 	void atm() {
 		System.out.println("get your atm card");
 	}
