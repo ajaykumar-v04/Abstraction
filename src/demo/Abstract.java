@@ -7,6 +7,9 @@ abstract class bank{
 	void atm() {
 		System.out.println("get your atm card");
 	}
+	 void date(){
+		System.out.println("your atm card will come with in one month .thank you foe choosing bank of borada ");
+	 }
 }
 
 class loan1 extends bank{
@@ -34,6 +37,7 @@ public class Abstract {
 		s1.loan();
 		s1.account();
 		s1.atm();
+		s1.date();
 		s2.loan();
 		s2.account();
 		s2.atm();
