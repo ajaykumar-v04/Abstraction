@@ -11,7 +11,10 @@ abstract class bank{
 		System.out.println("get your atm card");
 	}
 	 void date(){
-		System.out.println("your atm card will come with in one month .thank you foe choosing bank of borada ");
+		System.out.println("your atm card will come with in one month .thank you for choosing bank of borada ");
+	 }
+     void branch(){
+		System.out.println("wimco nagar branch");
 	 }
 }
 
